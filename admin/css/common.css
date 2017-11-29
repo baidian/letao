@@ -35,6 +35,10 @@ a:link, a:visited, a:hover ,a:active{
   position: absolute;
   top: 0;
   left: 0;
+  transition: all 1s;
+}
+.lt_aside.now{
+  left: -180px;
 }
 .lt_aside .brand a{
   height: 50px;
@@ -73,7 +77,7 @@ a:link, a:visited, a:hover ,a:active{
   border: 3px solid transparent;
 }
 .lt_aside .nav .child a{
-
+  padding-left: 50px;
 }
 .lt_aside .nav a.now{
   background-color: #1d1f21;
@@ -87,6 +91,10 @@ a:link, a:visited, a:hover ,a:active{
   height:100%;
   width:100%;
   padding-left: 180px;
+  transition: all 1s;
+}
+.lt_main.now{
+  padding-left: 0;
 }
 .lt_topbar{
   height: 50px;
