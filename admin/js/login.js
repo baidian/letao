@@ -27,6 +27,9 @@ $(function () {
         validators:{
           notEmpty:{
             message:"用户名不能为空"
+          },
+          callback:{
+            message:"用户名不存在"
           }
         }
       },
@@ -39,6 +42,9 @@ $(function () {
             min:6,
             max:12,
             message:"密码长度在6-12位"
+          },
+          callback:{
+            message:"密码错误"
           }
         }
       }
