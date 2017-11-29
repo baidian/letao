@@ -26,6 +26,9 @@ a:link, a:visited, a:hover ,a:active{
 .panel-heading{
   text-align: center;
 }
+.modal-body{
+  color:#c9302c;
+}
 
 
 .lt_aside{
@@ -106,4 +109,10 @@ a:link, a:visited, a:hover ,a:active{
 .lt_topbar a{
   color: #fff;
   font-size: 16px;
+}
+
+.chart_left,
+.chart_right{
+  width: 45%;
+  height: 400px;
 }

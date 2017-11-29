@@ -61,6 +61,7 @@ $(".icon_logout").on("click", function () {
       url:"/employee/employeeLogout",
       success:function (data) {
         if(data.success){
+          //console.log(hehe);
           //退出成功
           location.href = "login.html";
         }
