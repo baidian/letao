@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.bg-body{
+  background-color: #456785;
+}
+.mt-150{
+  margin-top: 150px;
+}
+.panel-heading{
+  text-align: center;
+}
