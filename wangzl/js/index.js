@@ -1,7 +1,7 @@
 $(function(){
-    var myChart = echarts.init(document.querySelector(".chart_left"));
+    var myChart3 = echarts.init(document.querySelector(".chart_left"));
 
-    var option = {
+    var option3 = {
         title: {
             text: '2017年注册人数'
         },
@@ -19,11 +19,11 @@ $(function(){
             data: [1000, 2000, 3000, 2500, 1888, 2322]
         }]
     };
-    myChart.setOption(option);
+    myChart3.setOption(option3);
 
-    var myChart1 = echarts.init(document.querySelector(".chart_right"));
+    var myChart4 = echarts.init(document.querySelector(".chart_right"));
     // 指定图表的配置项和数据
-    var option1 = {
+    var option4 = {
         title: {
             text: '热门品牌销售',
             subtext: '2017年11月',
@@ -74,5 +74,5 @@ $(function(){
         }]
     };
 
-    myChart1.setOption(option1);
+    myChart4.setOption(option4);
 })
