@@ -21,7 +21,14 @@ a:link, a:visited, a:hover, a:active{
 .mt-150{
   margin-top: 150px;
 }
-.panel-heading{
+.mb-20{
+  margin-bottom:20px;
+}
+.table.table-bordered td{
+  vertical-align:middle;
+  text-align: center;
+}
+.panel h4{
   text-align: center;
 }
 
