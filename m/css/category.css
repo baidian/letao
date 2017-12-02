@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.category_left{
+    width: 90px;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.category_left a{
+    display: block;
+    width: 90px;
+    height: 50px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+    background-color: #c0c0c0;
+}
+.category_left li a{
+    color: #fff;
+}
+.category_left li.now a{
+    border-right: none;
+    background-color: #fff;
+    color: #333;
+}
+/*overflow: hidden 触发了BFC*/
+.category_right{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.category_right li{
+    float: left;
+    width: 33.33%;
+}
+.category_right img{
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+}
+.category_right p{
+    text-align: center;
+}
+.tips{
+    padding: 10px;
+    color: #ccc;
+}
