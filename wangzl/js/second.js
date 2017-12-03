@@ -93,5 +93,5 @@ $(function(){
         $form.data("bootstrapValidator").updateStatus("categoryId","VALID");
     });
 
-    
+
 });
