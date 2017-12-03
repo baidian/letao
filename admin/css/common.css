@@ -46,19 +46,20 @@ a:link, a:visited, a:hover ,a:active{
   top: 0;
   left: 0;
   transition: all 1s;
+  z-index: 999;
 }
 .lt_aside.now{
   left: -180px;
 }
 .lt_aside .brand a{
-  height: 50px;
-  width: 180px;
   display: block;
+  width: 180px;
+  height: 50px;
   background-color: #367fa9;
-  color: #ffffff;
-  font-size: 24px;
   text-align: center;
   line-height: 50px;
+  font-size: 24px;
+  color: #fff;
 }
 .lt_aside .user{
   width: 180px;
@@ -81,7 +82,7 @@ a:link, a:visited, a:hover ,a:active{
 .lt_aside .nav a {
   display: block;
   height: 40px;
-  line-height: 34px;
+  line-height: 40px;
   padding-left: 30px;
   color: #ccc;
   border: 3px solid transparent;
@@ -101,21 +102,32 @@ a:link, a:visited, a:hover ,a:active{
   height:100%;
   width:100%;
   padding-left: 180px;
+  padding-top: 70px;
   transition: all 1s;
 }
 .lt_main.now{
   padding-left: 0;
 }
 .lt_topbar{
+  width: 100%;
   height: 50px;
   background-color: #3c8dbc;
-  padding: 0 20px;
+  padding: 0 20px 0 200px;
   line-height: 50px;
   margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  transition: all 1s;
+}
+.lt_topbar.now{
+  padding-left: 20px;
 }
 .lt_topbar a{
   color: #fff;
   font-size: 16px;
+  line-height: 50px;
 }
 
 .chart_left,

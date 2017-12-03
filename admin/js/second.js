@@ -17,7 +17,7 @@ $(function () {
                 $("#paginator").bootstrapPaginator({
                     bootstrapMajorVersion:3,
                     currentPage:page,
-                    totalPages:Math.ceil(data.total/data.Size),
+                    totalPages:Math.ceil(data.total/data.size),
                     onPageClicked:function (a,b,c,p) {
                         page = p;
                         render();
